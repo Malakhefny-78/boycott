@@ -22,8 +22,8 @@ boycott_brands = boycott_brands_function()
 # Create the main window
 window = Tk()  
 window.title("Boycott Brands Checker")
-window.geometry('1500x1000')
-window.config(bg='pink')
+window.geometry('1000x500')
+window.config(bg='sky blue')
 
 # Create and place the Entry widget
 entry1 = Entry(window, font=('sansserif',20) ,fg='maroon',bg='snow2')  
